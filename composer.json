@@ -1,0 +1,6 @@
+{
+    "autoload":{
+        "classmap":["Models" , "Controllers"],
+        "file":["config.php"]
+    }
+}
