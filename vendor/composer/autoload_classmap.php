@@ -7,4 +7,12 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'Controllers\\auth' => $baseDir . '/Controllers/authController.php',
+    'Controllers\\orderController' => $baseDir . '/Controllers/orderController.php',
+    'Controllers\\validation' => $baseDir . '/Controllers/validateController.php',
+    'Models\\model' => $baseDir . '/Models/model.php',
+    'Models\\order' => $baseDir . '/Models/order.php',
+    'Models\\product' => $baseDir . '/Models/product.php',
+    'Models\\user' => $baseDir . '/Models/user.php',
+    'Normalizer' => $vendorDir . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
 );

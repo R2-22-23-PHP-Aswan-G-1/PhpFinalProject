@@ -2,5 +2,8 @@
     "autoload":{
         "classmap":["Models" , "Controllers"],
         "file":["config.php"]
+    },
+    "require": {
+        "aws/aws-sdk-php": "^3.33"
     }
 }

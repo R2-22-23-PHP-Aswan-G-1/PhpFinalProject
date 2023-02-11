@@ -1,0 +1,19 @@
+Validation Rules
+
+
+1 - email is valid 
+
+2 - password 8:16
+      ex: Egy_202fa-stack-2x
+
+3 - Confirm password
+
+4 - 16 positive digits as the credit card.
+
+5 - expiration date formatted as MM / YY
+
+  Note the credit card full 16 numbers must NOT be saved in your DB.
+
+*******************************************
+
+The Logout should destroy the session and its cookie.
