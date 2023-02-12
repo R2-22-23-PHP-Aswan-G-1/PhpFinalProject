@@ -4,6 +4,7 @@
         "file":["config.php"]
     },
     "require": {
-        "aws/aws-sdk-php": "^3.33"
+        "aws/aws-sdk-php": "^3.33",
+        "chillerlan/php-qrcode": "^4.3"
     }
 }
